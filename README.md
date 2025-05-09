@@ -14,16 +14,6 @@ Create, view, complete, and delete tasks—fully client-side, persistent, and de
 - 💾 **Persistent Storage** using `localStorage`
 - 🎯 **Responsive UI** built with clean inline styles
 
----
-
-## 🖼 Preview
-
-![Task Scheduler Demo](preview.gif) <!-- Add a screen recording or screenshot here if available -->
-
-Or check it out live at:  
-👉 [**your-vercel-url.vercel.app**](https://your-vercel-url.vercel.app)
-
----
 
 ## 🛠 Tech Stack
 
@@ -39,7 +29,7 @@ Or check it out live at:
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/yourusername/task-scheduler-react.git
+   git clone https://github.com/rgalpin5/task-scheduler-js.git
    ```
 
 2. Install dependencies  
@@ -59,6 +49,7 @@ Or check it out live at:
 ## 🚀 Deployment
 
 This app is deployed via [**Vercel**](https://vercel.com/). Push any changes to GitHub and Vercel will auto-deploy your app.
+The app can be found at https://task-scheduler-js.vercel.app/ 
 
 ---
 
@@ -71,4 +62,3 @@ This project is open source and free to use under the [MIT License](LICENSE).
 ## 👨‍🎓 Author
 
 Built by **Raymond G.**  
-_Aspiring software engineer, focused on frontend dev, clean UI, and React mastery._
