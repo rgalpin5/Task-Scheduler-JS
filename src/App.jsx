@@ -234,8 +234,17 @@ function TaskItem({ task, isSelected, onClick }) {
         {task.title}
       </h3>
 
-      {isOpen && (
-        <div style={{ marginTop: "10px", textAlign: "left" }}>
+      <div
+        style={{
+          overflow: "hidden",
+          maxHeight: isOpen ? "300px" : "0px",
+          opacity: isOpen ? 1 : 0,
+          transition: "max-height 0.3s ease, opacity 0.3s ease",
+          marginTop: "10px",
+          textAlign: "left",
+        }}
+      >
+        <div>
           <p>
             <strong>Description:</strong> {task.description}
           </p>
@@ -246,7 +255,7 @@ function TaskItem({ task, isSelected, onClick }) {
             <strong>Due:</strong> {task.dueDate}
           </p>
         </div>
-      )}
+      </div>
     </div>
   );
 }
