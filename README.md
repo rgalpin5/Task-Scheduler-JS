@@ -1,12 +1,74 @@
-# React + Vite
+# ✅ Task Scheduler (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, interactive task manager built with **React + localStorage**.  
+Create, view, complete, and delete tasks—fully client-side, persistent, and deployable.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
 
-## Expanding the ESLint configuration
+- 🧾 **Add Tasks** with title, description, priority, and due date
+- ✅ **Mark Tasks as Complete** with visual indicators
+- ❌ **Delete Tasks** with a single click
+- 🔍 **Filter by Status**: All, Completed, Incomplete
+- 💾 **Persistent Storage** using `localStorage`
+- 🎯 **Responsive UI** built with clean inline styles
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼 Preview
+
+![Task Scheduler Demo](preview.gif) <!-- Add a screen recording or screenshot here if available -->
+
+Or check it out live at:  
+👉 [**your-vercel-url.vercel.app**](https://your-vercel-url.vercel.app)
+
+---
+
+## 🛠 Tech Stack
+
+- **React** (via Vite)
+- **JavaScript (ES6+)**
+- **HTML/CSS-in-JSX**
+- **localStorage** for persistence
+- **Vercel** for deployment
+
+---
+
+## 🧑‍💻 Getting Started
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/yourusername/task-scheduler-react.git
+   ```
+
+2. Install dependencies  
+   ```bash
+   npm install
+   ```
+
+3. Run the app  
+   ```bash
+   npm run dev
+   ```
+
+4. Open [localhost:5173](http://localhost:5173) in your browser
+
+---
+
+## 🚀 Deployment
+
+This app is deployed via [**Vercel**](https://vercel.com/). Push any changes to GitHub and Vercel will auto-deploy your app.
+
+---
+
+## 📄 License
+
+This project is open source and free to use under the [MIT License](LICENSE).
+
+---
+
+## 👨‍🎓 Author
+
+Built by **Raymond G.**  
+_Aspiring software engineer, focused on frontend dev, clean UI, and React mastery._
