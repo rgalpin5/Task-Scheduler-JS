@@ -54,7 +54,7 @@ function App() {
     <div
       style={{
         backgroundColor: "#111",
-        height: "100vh",
+        minHeight: "100vh",
         width: "100vw",
         display: "flex",
         justifyContent: "center",
@@ -62,6 +62,7 @@ function App() {
         color: "white",
         padding: "20px",
         boxSizing: "border-box",
+        margin: "0"
       }}
     >
       <div
